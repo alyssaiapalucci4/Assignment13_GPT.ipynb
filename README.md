@@ -68,3 +68,7 @@ Generative AI can sometimes produce incorrect or biased text. Because of this, i
 pip install transformers torch requests
 
 ---
+
+Author: Alyssa Iapalucci
+
+---
