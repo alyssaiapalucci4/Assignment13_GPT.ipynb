@@ -63,19 +63,4 @@ Generative AI systems may produce biased, incorrect, or nonsensical outputs depe
 Install dependencies using:
 
 ```bash
-
 pip install transformers torch requests
-
----
-
-**How to Run**
-
-- Open the notebook in Google Colab
-- Run all cells from top to bottom
-- Ensure internet access is enabled for model and dataset loading
-
----
-
-Author: Alyssa I
-
----
