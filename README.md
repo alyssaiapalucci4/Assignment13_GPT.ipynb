@@ -1,77 +1,70 @@
 # Assignment 13: Generative AI with GPT
 
 ## Overview
-This project explores Generative Artificial Intelligence using a GPT-2 model. The goal is to understand how transformer-based models generate human-like text and how different sampling parameters affect output quality.
+This project is about Generative AI using a GPT-2 model. The goal is to see how the model generates text and how different settings like temperature and sampling affect the output.
 
-The notebook demonstrates dataset usage, text generation, and parameter tuning using a simple and practical implementation.
+The notebook uses a simple dataset and shows basic text generation examples.
 
 ---
 
 ## Dataset
-The dataset used in this project is *Alice’s Adventures in Wonderland* from Project Gutenberg.
+The dataset used is *Alice’s Adventures in Wonderland* from Project Gutenberg.
 
-This dataset was chosen because:
-- It is publicly available and free to use  
-- It contains structured narrative text  
-- It is suitable for text generation tasks  
+I chose this dataset because it is:
+- Free and publicly available  
+- Easy to work with  
+- A good example of natural language text  
 
-Source: https://www.gutenberg.org/
+https://www.gutenberg.org/
 
 ---
 
 ## Model Used
-This project uses a pre-trained GPT-2 model from Hugging Face Transformers.
+This project uses a pre-trained GPT-2 model from Hugging Face.
 
 - Model: GPT-2  
-- Library: Transformers (PyTorch backend)  
-- Purpose: Generate text from input prompts  
+- Library: Transformers (PyTorch)  
+- Used for: generating text from prompts  
 
-Note: The model was not trained from scratch due to computational limitations. Instead, a pre-trained model was used for demonstration and parameter experimentation.
+I did not train the model from scratch because it is too heavy, so I used a pre-trained version instead.
 
 ---
 
-## Features Implemented
+## What This Notebook Does
 The notebook includes:
 
-- Environment setup and library installation  
-- Dataset loading and preprocessing  
-- GPT model and tokenizer loading  
-- Custom text generation function  
-- Basic text generation  
-- Output length control  
-- Temperature adjustment  
-- Top-k and top-p sampling  
-- Prompt engineering experiments  
-- Real-world application example (content generation)  
+- Loading the dataset  
+- Loading the GPT-2 model  
+- Generating text from prompts  
+- Changing output length  
+- Testing temperature (creativity)  
+- Using top-k and top-p sampling  
+- Trying different prompts  
 
 ---
 
 ## Example Output
-The model can generate text such as:
+Example input:
+“Write a short blog introduction about artificial intelligence”
 
-> Input: "Write a short blog introduction about artificial intelligence"  
-> Output: AI-generated paragraph based on GPT-2 predictions
-
----
-
-## Ethical Considerations
-Generative AI systems may produce biased, incorrect, or nonsensical outputs depending on training data and prompt design. These models should be used responsibly, especially in educational and real-world applications.
+The model generates a short paragraph based on that prompt.
 
 ---
 
-## Requirements
-Install dependencies using:
+## Ethical Notes
+Generative AI can sometimes produce incorrect or biased text. Because of this, it should be used carefully, especially in real-world situations.
 
-```bash
+---
+
+## How to Run
+1. Open the notebook in Google Colab  
+2. Run each cell from top to bottom  
+3. Make sure internet is enabled so the model and dataset can load  
+
+---
+
+## Install Requirements 
+
 pip install transformers torch requests
 
-```
-
----
-
-**How to Run**
-1. Open the notebook in Google Colab
-2. Run all cells from top to bottom
-3. Ensure internet access is enabled for model and dataset loading
-   
 ---
