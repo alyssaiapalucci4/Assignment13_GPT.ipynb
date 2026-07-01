@@ -64,3 +64,14 @@ Install dependencies using:
 
 ```bash
 pip install transformers torch requests
+
+```
+
+---
+
+**How to Run**
+1. Open the notebook in Google Colab
+2. Run all cells from top to bottom
+3. Ensure internet access is enabled for model and dataset loading
+   
+---
